@@ -32,6 +32,7 @@ capacitors and resistors, then i connected each pin to it's ground in which i ha
 
 ### Power Regulation
 > Security measures for power inputs 
+
 After making the general schematic i thought about protecting the curcuit even though the power input is a battery i though it is relatively important to make such small circuit. As i have to power inputs one for *3.3v* and the other for *5v*, i had to make two separate regulators, the regulation curcuit consists of two parts, the regulator itself and a *reverse polarity protection* circuit made using *IRLM6402* Diode and *IRF954DN*. Both cicuits working on *uni-polar* power system.
 
 ![image-1.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDIxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--e867d086f9415581345c7c39481181fc9b424732/image-1.png)
