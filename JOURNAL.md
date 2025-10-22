@@ -20,7 +20,7 @@ equivalent projects made for the same purpose of brain-computer interfaces, I ha
 
   
 
-## 10/22/2025 - Schematic Design   
+## 10/22/2025 2 AM - Schematic Design   
 
 
 # October 21th: 
@@ -31,5 +31,16 @@ capacitors and resistors, then i connected each pin to it's ground in which i ha
 
 
 ![image-1.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDIxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--e867d086f9415581345c7c39481181fc9b424732/image-1.png)
+  
+
+## 10/22/2025 7 PM - Schematic Design Power Regulation  
+
+
+### Power Regulation
+> Security measures for power inputs 
+
+After making the general schematic i thought about protecting the curcuit even though the power input is a battery i though it is relatively important to make such small circuit. As i have to power inputs one for *3.3v* and the other for *5v*, i had to make two separate regulators, the regulation curcuit consists of two parts, the regulator itself and a *reverse polarity protection* circuit made using *IRLM6402* Diode and *IRF954DN*. Both cicuits working on *uni-polar* power system.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--5d1f387f5595772a249f49d7b1212bbb1c398e43/image.png)
   
 
