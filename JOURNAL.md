@@ -24,16 +24,11 @@ equivalent projects made for the same purpose of brain-computer interfaces, I ha
 
 
 # October 21th: 
-> **Time spent: 7h**
+> **Time spent: 3h 30min**
 
 Started designing the schematic, first of all i found ADS1299 chip footprint but i had to edit certain pin names on the footprint, then i started connecting main pins to labels, after that i read the datasheet and also used the OpenBCI pcb reference in order to connect the electronic components to the pins in terms of 
 capacitors and resistors, then i connected each pin to it's ground in which i have to ground planes one for digital and the other for analog signals.
 
-
-### Power Regulation
-> Security measures for power inputs 
-
-After making the general schematic i thought about protecting the curcuit even though the power input is a battery i though it is relatively important to make such small circuit. As i have to power inputs one for *3.3v* and the other for *5v*, i had to make two separate regulators, the regulation curcuit consists of two parts, the regulator itself and a *reverse polarity protection* circuit made using *IRLM6402* Diode and *IRF954DN*. Both cicuits working on *uni-polar* power system.
 
 ![image-1.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDIxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--e867d086f9415581345c7c39481181fc9b424732/image-1.png)
   
