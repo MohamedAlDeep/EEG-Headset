@@ -44,3 +44,22 @@ After making the general schematic i thought about protecting the curcuit even t
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDQ1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--5d1f387f5595772a249f49d7b1212bbb1c398e43/image.png)
   
 
+## 10/24/2025 - Started Designing PCB  
+
+> **Time spent: 4h**
+
+### Many Iterations 😅
+I begined with adding the number of components needed for most pins from the 64 on the adc chip, then started organizing the capacitors at their positions then the 4 resistors for the unused GPIO pins, after that i draw the signal lines i tried for the first time then relialized i was drawing longer lines than needed that took a lot of space, so i tried to re-orrient the capacitors and do adjustments then found good position at least for now, i feel i might need to re-arrange in the future for the total size of the board 
+but i find it good for now.
+
+### Power Connection 
+I tried to connect the reverse polarity protection circuit in many ways, at first i failed in some way either by drawing unnecessary traces or traces have intersection points, so at the end i was able to draw one not bad circuit that shouldn't take much space in the final pcb. I have done the same to the other power supply which is the 5v i tried to make both supplies as similar as posible. However, i still don't know what i should do in terms of ground plane, i know that according to the *Texas Instruments* datasheet i should make two ground planes one for digital and other for analog, this is what i am going to do next.
+![image-2.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--0402c274138abf45cca7c64ae594c472cd87f909/image-2.png)
+
+
+### Pins Connectors 
+At the end i have added pin connectors which are the ones that work with the dupont wires and finaly i have added temporary large holes that enable me to hold the pcb with screws or inside a 3D printed case that i am going to design in the following times. 
+![image-3.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA3MCwicHVyIjoiYmxvYl9pZCJ9fQ==--e80701bca229a5c42c42a6691d510e19da59c1e6/image-3.png)
+
+  
+
