@@ -63,3 +63,30 @@ At the end i have added pin connectors which are the ones that work with the dup
 
   
 
+## 11/1/2025 - Final Changes and Polishing PCB  
+
+## Schematic 
+Since the last time i have made some checks and revalidation for the schematic design and i got feedback from field professionals, i found that my schematic had major issue in certain connections, in addition i didn't have a connector for the start pin, so i added the connector then i started fixing the differential connectors for the inputs named in INxP/N format, i had to follow a certain pattern in making those connections, in which it is written in the datasheet that the connections are made in *sequential montage* way in which every differential input connection has a resistor and every two pairs of INxP/N have a decoupling capacitor, i applied that to every input, which made the final result shown in the image.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyMCwicHVyIjoiYmxvYl9pZCJ9fQ==--9daaf4fcd5ee105d80f4713f1e18a315a7559639/image.png)
+ 
+## PCB
+In the PCB trace routing process i rerouted the whole board again, the process was much faster though and i worked on making a neat concise routes.
+
+I started by adding the start pin connector, then went to the INxP/N differential inputs, i started updated the pcb from schematic which added about 16 resistors and 8 capacitors, i organized each resistor onto its respective area then drawn the traces after that i took each capacitor connected each one to its differential pairs, after that i connected them to the already made traces to the chip.
+
+After finishing the main connections i only had to connect the power supply to the chip, which got me into another work, my bottom connections of the chip are not organized as the datasheet which made me not able to connect the power supply lines effectively, so i took the TI's Datasheet example on pcb layout as reference and rerouted the traces, so i put the decoupling capacitors at the same orientation, and added large polygons for the **AVDD** (positive power) connection, then to follow the datasheet i had to use a minimum of 2-layers one on the bottom for using it as ground for each supply, so i added filled ground regions (blue boxes in the image) based on that i added on the front layer **vias** for **AVSS** ground connection for the respective chip pins, so at the end i had connected the power supplies for the bottom side of the chip. I have done the same process for the top side of the chip from *1. rerouting traces* then *2. orientation* then *3. power connections and vias*, after doing all that i re-positioned the reverse polarity protection circuit and routed the powering pins to their inputs by routing them on the bottom layer and i refilled the ground plane to disconnect from the power traces. 
+So at the end i had completed every connection and i was ready to polish the PCB in which i made rounded edge cuts for pcb outline around the mounting holes, then i added my logo using the image converted on KiCAD.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--abdb10505201a58f8f48f711b8c47db479786aee/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyMiwicHVyIjoiYmxvYl9pZCJ9fQ==--23e0d130934060a2702398ddb0d7e030e4538d5c/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--b75b495bde140338e3a696930405bec5c12ad972/image.png)
+
+## Plastic Mount / Holder
+So i took a break then made a simple design for pcb mounting part in Fusion360 program, this was a fast forward process, the part is just a bottom rest case i didn't have a specific idea for it, so i might add a cover on the top but i feel like i will leave it like that and just mount it using bolts and nuts
+
+![PCB_Holder v2](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--43dc486984c19f3706c9f0057f2c3246da90dacf/PCB_Holder%20v2.png)![PCB_Holder v2 2](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--faa235df3d871e38bb3a8f2e053ffb42e156f657/PCB_Holder%20v2%202.png)![PCB_Holder v2 3](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyNywicHVyIjoiYmxvYl9pZCJ9fQ==--879bd12252ab173d4346be649a70ee7da01daf51/PCB_Holder%20v2%203.png)
+  
+
