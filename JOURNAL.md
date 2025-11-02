@@ -90,3 +90,10 @@ So i took a break then made a simple design for pcb mounting part in Fusion360 p
 ![PCB_Holder v2](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--43dc486984c19f3706c9f0057f2c3246da90dacf/PCB_Holder%20v2.png)![PCB_Holder v2 2](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--faa235df3d871e38bb3a8f2e053ffb42e156f657/PCB_Holder%20v2%202.png)![PCB_Holder v2 3](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzIyNywicHVyIjoiYmxvYl9pZCJ9fQ==--879bd12252ab173d4346be649a70ee7da01daf51/PCB_Holder%20v2%203.png)
   
 
+## 11/2/2025 - Test Points  
+
+## PCB 
+Today i have added some test points with labels on the main power lines, one for the 5v and the regulated then another on the 3.7v and its regulated.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzgyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--f508d77d101dcc764fe73026b2bb018370af8c79/image.png)
+  
+
