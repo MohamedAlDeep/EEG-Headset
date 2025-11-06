@@ -103,6 +103,7 @@ I have edited certain reference names for the voltage regulators to keep up with
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODkzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--010524c21d19e8fe7cfac8cd6416b679678c2749/image.png)
 
+For the board holder i have made caps with threads that can be rotated, for easy lock in and removal process.
 
 ![Animation](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODkyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--9bf595dccde9e1b4560413d764d767b422cacbdb/Animation.gif)
 
