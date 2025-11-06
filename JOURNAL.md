@@ -11,7 +11,7 @@
 
 
 
-> **Time spent: 4h**
+> **Time spent: 1h**
 
 The day started by initializing the project, the first steps I have done was searching for 
 equivalent projects made for the same purpose of brain-computer interfaces, I have found premade opensource headset made by a company called *OpenBCI* they have their Cyton Board sold for $1,249 USD which is very expensive that is why i decided to make my own, i learned from people on discord the general schematic and footprint needed for starting design process, then i read part of the Texas Instruments datasheet
