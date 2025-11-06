@@ -97,3 +97,14 @@ Today i have added some test points with labels on the main power lines, one for
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzgyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--f508d77d101dcc764fe73026b2bb018370af8c79/image.png)
   
 
+## 11/6/2025 - Before publishing  
+
+I have edited certain reference names for the voltage regulators to keep up with the JLC stock parts, and added an additional power supply pins that are unprotected incase of failure in reverse polarity circuit and i have changed the zener diode's from TO footprint to SOT footprint and the same thing for the voltage regulators.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODkzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--010524c21d19e8fe7cfac8cd6416b679678c2749/image.png)
+
+
+![Animation](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODkyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--9bf595dccde9e1b4560413d764d767b422cacbdb/Animation.gif)
+
+  
+
